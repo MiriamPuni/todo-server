@@ -26,7 +26,7 @@ const taskSchema = new mongoose.Schema({
         default: Date.now
     },
     dateFinish:{
-        type: String
+        type: Date
     }
 })
 
